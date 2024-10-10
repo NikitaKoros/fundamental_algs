@@ -1,0 +1,12 @@
+# ninja log v5
+3	125	7501075515872224	CMakeFiles/task2.dir/task2.c.obj	1544f0559a91d39b
+134	217	7497616018756891	SecondTask.exe	41520501ea604aa8
+17	138	7501075516002236	CMakeFiles/task2.dir/sqrt2.c.obj	3280ebf94ea2a65c
+2	195	7501110477157425	build.ninja	4dde32522dba4f43
+8	117	7501075515792221	CMakeFiles/task2.dir/e.c.obj	d1e5ef3826c3e08c
+11	134	7501075515962325	CMakeFiles/task2.dir/ln2.c.obj	3e4f26370b2e0f47
+14	132	7501075515942223	CMakeFiles/task2.dir/pi.c.obj	bd5441b0e4641eac
+3	78	7501077743337662	CMakeFiles/task2.dir/gamma.c.obj	7137bb1251550d2c
+6	137	7501075515992232	CMakeFiles/task2.dir/dichotomy_equation.c.obj	508c3832fc78cfc6
+20	140	7501075516022231	CMakeFiles/task2.dir/util_task2.c.obj	1bcb1fac76e6814d
+79	157	7501077744097682	task2.exe	5b9400bc15adc21e
