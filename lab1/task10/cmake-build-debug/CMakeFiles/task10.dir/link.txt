@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/task10.dir/task10.c.o CMakeFiles/task10.dir/util_task10.c.o -o task10  -lm 
