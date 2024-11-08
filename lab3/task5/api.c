@@ -125,33 +125,25 @@ char* RequestGroup() {
 
 int ChooseSortType() {
     int type;
-    if (scanf("%d", &type) != 1) {
-        return -1;
-    }
+    while (true) {
+        printf("Enter sorting type 1 - 4:\n");
+        if (scanf("%d", &type) != 1) {
+            while (getchar() != '\n');
+            continue;
+        }
 
-    if (type < 1 || type > 4) {
-        return -1;
+        if (type >= 1 && type <= 4) {return type;}
     }
-
-    return type;
 }
 
 Student* HandleSorting(Student* students, int count, Comparator* comparators) {
     
     int type;
-    while(true) {
-        printf("Enter sorting type 1 - 4:\n");
-        type = ChooseSortType();
-        if (type != -1) {
-            break;
-        }
-    }
+    type = ChooseSortType();
 
     Comparator cmp = comparators[type - 1];
     ////////////////////
-    for (int i = 0; i < count; i++) {
-    printf("Student %d: %s %s\n", students[i].id, students[i].firstName, students[i].lastName);
-}
+    
     SortStudentsArray(students, count, cmp);
 
     return students;
