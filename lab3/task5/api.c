@@ -138,7 +138,7 @@ Student* HandleSorting(Student* students, int count, Comparator* comparators) {
     int type;
     while(true) {
         printf("Enter sorting type 1 - 4:\n");
-        int type = ChooseSortType();
+        type = ChooseSortType();
         if (type != -1) {
             break;
         }
