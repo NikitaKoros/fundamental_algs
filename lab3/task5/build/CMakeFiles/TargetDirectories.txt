@@ -1,0 +1,3 @@
+/home/nikita/fund_algs/fundamental_algs/lab3/task5/build/CMakeFiles/task5.dir
+/home/nikita/fund_algs/fundamental_algs/lab3/task5/build/CMakeFiles/edit_cache.dir
+/home/nikita/fund_algs/fundamental_algs/lab3/task5/build/CMakeFiles/rebuild_cache.dir

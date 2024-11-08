@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/task10.dir/task10.c.o CMakeFiles/task10.dir/util_task10.c.o CMakeFiles/task10.dir/tree.c.o -o task10 

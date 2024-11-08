@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/task5.dir/task5.c.o CMakeFiles/task5.dir/util_task5.c.o CMakeFiles/task5.dir/api.c.o CMakeFiles/task5.dir/student.c.o -o task5 
