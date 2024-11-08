@@ -199,7 +199,7 @@ Student *FindStudentById(Student *students, int count, unsigned int id) {
     return NULL;
 }
 
-Student *FindStudentByLastName(Student *students, int count, const char *lastName) {
+Student *FindStudentByLastName(Student *students, int count, char *lastName) {
     for (int i = 0; i < count; ++i) {
         if (strcmp(students[i].lastName, lastName) == 0) {
             return &students[i];
@@ -208,7 +208,7 @@ Student *FindStudentByLastName(Student *students, int count, const char *lastNam
     return NULL;
 }
 
-Student *FindStudentByFirstName(Student *students, int count, const char *firstName) {
+Student *FindStudentByFirstName(Student *students, int count, char *firstName) {
     for (int i = 0; i < count; ++i) {
         if (strcmp(students[i].firstName, firstName) == 0) {
             return &students[i];
@@ -217,7 +217,7 @@ Student *FindStudentByFirstName(Student *students, int count, const char *firstN
     return NULL;
 }
 
-Student *FindStudentByGroup(Student *students, int count, const char *group) {
+Student *FindStudentByGroup(Student *students, int count, char *group) {
     for (int i = 0; i < count; ++i) {
         if (strcmp(students[i].group, group) == 0) {
             return &students[i];

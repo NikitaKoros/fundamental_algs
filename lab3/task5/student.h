@@ -21,9 +21,9 @@ Error ReadGrades(FILE*, unsigned char**);
 void DeleteStudents(Student*, int);
 
 Student *FindStudentById(Student*, int, unsigned int);
-Student *FindStudentByLastName(Student*, int, const char *);
-Student *FindStudentByFirstName(Student*, int, const char *);
-Student *FindStudentByGroup(Student*, int, const char *);
+Student *FindStudentByLastName(Student*, int, char *);
+Student *FindStudentByFirstName(Student*, int, char *);
+Student *FindStudentByGroup(Student*, int, char *);
 
 void SortStudentsArray(Student*, int, Comparator);
 int CompareByID(const void*, const void*);

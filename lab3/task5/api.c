@@ -33,18 +33,21 @@ Error InteractiveDialogue(Student* students, int count, FILE* output) {
             PrintStudentToFile(student, average, output);
             break;
         case 2:
-            const char* lastName = RequestLastName();
+            char* lastName = RequestLastName();
             student = FindStudentByLastName(students, count, lastName);
+            free(lastName);
             PrintStudent(student);
             break;
         case 3:
-            const char* firstName = RequestFirstName();
+            char* firstName = RequestFirstName();
             student = FindStudentByFirstName(students, count, firstName);
+            free(firstName);
             PrintStudent(student);
             break;
         case 4:
-            const char* group = RequestGroup();
+            char* group = RequestGroup();
             student = FindStudentByGroup(students, count, group);
+            free(group);
             PrintStudent(student);
             break;
         case 5:
@@ -90,34 +93,34 @@ unsigned int RequestId() {
     return (unsigned int) id;
 }
 
-const char* RequestLastName() {
+char* RequestLastName() {
     printf("Please enter student's last name:\n");
     char* lastName = NULL;
     if (scanf("%ms", &lastName) != 1) {
         return NULL;
     }
 
-    return (const char*)lastName;
+    return lastName;
 }
 
-const char* RequestFirstName() {
+char* RequestFirstName() {
     printf("Please enter student's first name:\n");
     char* firstName = NULL;
     if (scanf("%ms", &firstName) != 1) {
         return NULL;
     }
 
-    return (const char*)firstName;
+    return firstName;
 }
 
-const char* RequestGroup() {
+char* RequestGroup() {
     printf("Please enter student's group:\n");
     char* group = NULL;
     if (scanf("%ms", &group) != 1) {
         return NULL;
     }
 
-    return (const char*)group;
+    return group;
 }
 
 int ChooseSortType() {

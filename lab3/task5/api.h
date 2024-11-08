@@ -7,9 +7,9 @@
 Error InteractiveDialogue(Student*, int, FILE*);
 void ShowMenu();
 unsigned int RequestId();
-const char* RequestLastName();
-const char* RequestFirstName();
-const char* RequestGroup();
+char* RequestLastName();
+char* RequestFirstName();
+char* RequestGroup();
 int ChooseSortType();
 Student* HandleSorting(Student*, int, Comparator*);
 
