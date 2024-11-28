@@ -1,0 +1,1 @@
+/usr/bin/gcc  -Wall -Wextra -Werror -pedantic -Wconversion CMakeFiles/task1.dir/task1.c.o CMakeFiles/task1.dir/util_task1.c.o CMakeFiles/task1.dir/hash_table.c.o -o task1 
