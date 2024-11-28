@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -Wall -Wextra -Werror -pedantic -Wconversion CMakeFiles/task2.dir/task2.cpp.o CMakeFiles/task2.dir/util_task2.cpp.o -o task2 
