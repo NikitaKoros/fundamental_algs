@@ -1,8 +1,7 @@
-
-BasedOnStyle: Google       # Базовый стиль (Google, LLVM, Chromium, WebKit и т.д.)
-IndentWidth: 4             # Размер отступа (количество пробелов)
-TabWidth: 4                # Ширина табуляции
-UseTab: Never              # Использовать пробелы вместо табуляции
-ColumnLimit: 90            # Максимальная длина строки
-BreakBeforeBraces: Attach  # Скобки остаются на той же строке
-AllowShortFunctionsOnASingleLine: Inline  # Короткие функции в одну строку
+BasedOnStyle: Google
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 90
+BreakBeforeBraces: Attach
+AllowShortFunctionsOnASingleLine: Inline
