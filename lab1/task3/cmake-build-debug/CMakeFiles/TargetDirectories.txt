@@ -1,3 +1,0 @@
-/mnt/c/Users/nikit/CLionProjects/fundamental_alg/lab1/task3/cmake-build-debug/CMakeFiles/task3.dir
-/mnt/c/Users/nikit/CLionProjects/fundamental_alg/lab1/task3/cmake-build-debug/CMakeFiles/edit_cache.dir
-/mnt/c/Users/nikit/CLionProjects/fundamental_alg/lab1/task3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -Wall -Wextra -Werror -pedantic -Wconversion CMakeFiles/task7.dir/task7.c.o CMakeFiles/task7.dir/util_task7.c.o -o task7 

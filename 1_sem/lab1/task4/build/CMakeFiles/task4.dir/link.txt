@@ -1,0 +1,1 @@
+/usr/bin/gcc -g -Wall -Wextra -Werror CMakeFiles/task4.dir/task4.c.o CMakeFiles/task4.dir/util_task4.c.o -o task4 

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/home/nikita/fund_algs/fundamental_algs/build",
+  "command": "/usr/bin/gcc -g -std=c11 -o CMakeFiles/task3.dir/task3.c.o -c /home/nikita/fund_algs/fundamental_algs/lab3/task3/task3.c",
+  "file": "/home/nikita/fund_algs/fundamental_algs/lab3/task3/task3.c",
+  "output": "CMakeFiles/task3.dir/task3.c.o"
+},
+{
+  "directory": "/home/nikita/fund_algs/fundamental_algs/build",
+  "command": "/usr/bin/gcc -g -std=c11 -o CMakeFiles/task3.dir/util_task3.c.o -c /home/nikita/fund_algs/fundamental_algs/lab3/task3/util_task3.c",
+  "file": "/home/nikita/fund_algs/fundamental_algs/lab3/task3/util_task3.c",
+  "output": "CMakeFiles/task3.dir/util_task3.c.o"
+},
+{
+  "directory": "/home/nikita/fund_algs/fundamental_algs/build",
+  "command": "/usr/bin/gcc -g -std=c11 -o CMakeFiles/task3.dir/employee.c.o -c /home/nikita/fund_algs/fundamental_algs/lab3/task3/employee.c",
+  "file": "/home/nikita/fund_algs/fundamental_algs/lab3/task3/employee.c",
+  "output": "CMakeFiles/task3.dir/employee.c.o"
+}
+]

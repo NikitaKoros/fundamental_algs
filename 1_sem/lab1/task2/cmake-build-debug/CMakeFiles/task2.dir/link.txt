@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/task2.dir/task2.c.o CMakeFiles/task2.dir/dichotomy_equation.c.o CMakeFiles/task2.dir/e.c.o CMakeFiles/task2.dir/ln2.c.o CMakeFiles/task2.dir/pi.c.o CMakeFiles/task2.dir/sqrt2.c.o CMakeFiles/task2.dir/util_task2.c.o CMakeFiles/task2.dir/gamma.c.o -o task2  -lm 

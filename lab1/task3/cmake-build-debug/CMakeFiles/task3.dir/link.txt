@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/task3.dir/task3.c.o CMakeFiles/task3.dir/handlers.c.o CMakeFiles/task3.dir/util_task3.c.o -o task3  -lm

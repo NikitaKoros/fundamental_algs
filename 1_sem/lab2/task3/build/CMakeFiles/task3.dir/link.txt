@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/task3.dir/task3.c.o CMakeFiles/task3.dir/util3.c.o -o task3 

@@ -1,0 +1,3 @@
+/home/nikita/fund_algs/fundamental_algs/lab1/task1/cmake-build-debug/CMakeFiles/task1.dir
+/home/nikita/fund_algs/fundamental_algs/lab1/task1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nikita/fund_algs/fundamental_algs/lab1/task1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

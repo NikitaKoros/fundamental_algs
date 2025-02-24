@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/task6.dir/task6.c.o CMakeFiles/task6.dir/util_task6.c.o CMakeFiles/task6.dir/integrals.c.o -o task6  -lm 

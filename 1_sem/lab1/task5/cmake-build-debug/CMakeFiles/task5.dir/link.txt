@@ -1,0 +1,1 @@
+gcc CMakeFiles/task5.dir/task5.c.o CMakeFiles/task5.dir/util_task5.c.o -o task5  -lm 

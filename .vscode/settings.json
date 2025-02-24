@@ -1,0 +1,19 @@
+{
+    "cmake.sourceDirectory": "/home/nikita/fund_algs/fundamental_algs/lab3/task3",
+    
+    "cmake.debugConfig": {
+        "args": [
+            "/home/nikita/fund_algs/fundamental_algs/lab3/task3/test/input",
+            "-a",
+            "/home/nikita/fund_algs/fundamental_algs/lab3/task3/test/output"
+        ]
+    },
+
+    // "[c]": {
+    // "editor.defaultFormatter": "ms-vscode.cpptools"
+    // },
+    
+    // "[cpp]": {
+    //     "editor.defaultFormatter": "ms-vscode.cpptools"
+    // }
+}
